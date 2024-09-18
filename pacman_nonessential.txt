@@ -1,0 +1,13 @@
+# Not needed for bootstrapping. Useful otherwise.
+
+alacritty
+firefox
+fish
+pipewire
+
+neofetch
+btop
+
+firewalld
+
+networkmanager

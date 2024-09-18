@@ -1,0 +1,41 @@
+# The essential packages for bootstrapping
+# Anything after a '#' will be ignored, regardless of where the '#' is in the line.
+
+base
+base-devel
+
+# Linux Zen Kernel
+linux-firmware
+linux-zen
+linux-zen-headers
+
+# Utilities
+util-linux
+unzip
+curl
+git
+bash
+
+# Text editors
+nano
+vi
+neovim
+
+# For managing btrfs
+btrfs-progs
+
+# Might replace with doas in the future.
+sudo
+
+# For information
+man
+man-db
+texinfo
+tldr
+
+# Reflector to get mirror sites for pacman
+pacman
+reflector
+
+# Internet. Remove later. Also have "systemctl enable iwd" somewhere.
+iwd
